@@ -79,7 +79,7 @@ body {
 
 .yupiter {
   position: absolute;
-  top: -3rem;
+  top: -10rem;
   right: 0;
 }
 
@@ -105,3 +105,45 @@ body {
 .github {
   background: linear-gradient(124deg, rgb(12, 65, 139) 60%, rgb(35, 99, 209) 100%);
 }
+
+/* ABOUT */
+
+.about-i {
+  position: relative;
+}
+
+.about {
+  width: 630px;
+  height: 630px;
+  background: linear-gradient(124deg,rgba(201, 97, 222, 1) 20%, rgba(41, 84, 163, 1) 100%);
+  margin: 0 auto;
+  z-index: inherit;
+  display: flex;
+  justify-content: start;
+  margin-top: 15rem;
+  border-radius: 60%;
+  overflow: hidden;
+
+}
+
+.about-back {
+  position: absolute;
+  top: -10rem;
+  left: 8rem;
+  z-index: -1;
+}
+
+.diamond {
+  
+    position: absolute;
+    top: 20rem;
+    left: 56rem;
+    z-index: 2;
+  
+}
+
+.about > svg {
+ width: 200%;
+  padding-right: 10rem;
+}
+
